@@ -3,4 +3,12 @@
 */
 
 function wait(n) {
+    return new Promise(function(resolve){
+        setTimeout(resolve, n)
+    })
 }
+
+
+
+
+
